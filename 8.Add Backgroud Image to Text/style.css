@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family:sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+.heading{
+    font-size: 9rem;
+    font-weight: 900;
+    background: url(Nature.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

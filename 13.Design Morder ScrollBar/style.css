@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background-color: crimson;
+}
+.card{
+
+    width:750px;
+    background-color: azure;
+    padding: 20px;
+    margin: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+}   
+section{
+   counter-reset: counterincrements;
+}
+
+.card-title{
+    padding-bottom: 10px;
+}
+
+.card-title::before{
+    content:"Title " counter(counterincrements);
+    font-weight: bold;
+    counter-increment: counterincrements;
+     
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+         
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(aqua,lightblue,blue);
+    border-radius: 10px;    
+}
+ 
